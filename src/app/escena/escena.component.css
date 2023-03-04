@@ -1,0 +1,32 @@
+.escenaStyle{
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .current {
+    background-color: rgb(252, 145, 119);
+    font-weight: bold;
+  }
+
+  .botonContainer{
+
+    display: flex;
+   
+       
+}
+
+.boton{
+
+    flex: 1;
+    padding: 30px;
+    margin-bottom: 10px;
+
+}

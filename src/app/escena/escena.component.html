@@ -1,0 +1,12 @@
+<div class="botonContainer">
+    <button (click)="prev()"class="boton">Anterior</button>
+    <button (click)="next()"class="boton">Siguiente</button>
+</div>
+
+
+<div *ngFor="let frase of historia; let i=index" [ngClass]="{ 'current': i === currentSentence }" class="escenaStyle">
+    {{ frase.frase }}
+</div>
+  
+
+  
